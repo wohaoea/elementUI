@@ -1,0 +1,82 @@
+{
+    success:true,
+    msg:"查询成功",
+    data:{
+        recordsTotal:60,
+        data:[
+             {
+                 date: '2016-05-04',
+                 companyName: '上海电气',
+                 industryCategory: '能源/原材料',
+                 companyNature: '私营企业',
+                 companyScale: '501-2000',
+                 createTime: '2015-10-11',
+                 status: 'normal',
+                 creditLoan:true,
+                 virtualCreditCard:true,
+                 openFunction:'CREDIT_LOAN,VIRTUAL_CREDIT_CARD',
+                 companyBriefIntroduction:'机构简介内容'
+             }, {
+                 date: '2016-05-04',
+                 companyName: '中国电力',
+                 industryCategory: '能源/原材料',
+                 companyNature: '国有企业',
+                 companyScale: '501-2000',
+                 createTime: '2014-09-01',
+                 status: 'forbidden',
+                 creditLoan:false,
+                 virtualCreditCard:true,
+                 openFunction:'VIRTUAL_CREDIT_CARD',
+                 companyBriefIntroduction:'机构简介内容'
+             }, {
+                 date: '2016-05-01',
+                 companyName: '天能集团',
+                 industryCategory: '能源/原材料',
+                 companyNature: '私营企业',
+                 companyScale: '501-2000',
+                 createTime: '2011-08-11',
+                 status: 'forbidden',
+                 creditLoan:true,
+                 virtualCreditCard:false,
+                 openFunction:'CREDIT_LOAN',
+                 companyBriefIntroduction:'机构简介内容'
+             }, {
+                 date: '2016-05-03',
+                 companyName: '恒大集团',
+                 industryCategory: '能源/原材料',
+                 companyNature: '私营企业',
+                 companyScale: '0-100',
+                 createTime: '2016-12-03',
+                 status: 'normal',
+                 creditLoan:true,
+                 virtualCreditCard:true,
+                 openFunction:'CREDIT_LOAN,VIRTUAL_CREDIT_CARD',
+                 companyBriefIntroduction:'机构简介内容'
+             }, {
+                 date: '2016-05-03',
+                 companyName: '中国人民银行',
+                 industryCategory: '会计/金融/银行/保险',
+                 companyNature: '国有企业',
+                 companyScale: '10001+',
+                 createTime: '2015-10-11',
+                 status: 'normal',
+                 creditLoan:true,
+                 virtualCreditCard:false,
+                 openFunction:'CREDIT_LOAN',
+                 companyBriefIntroduction:'机构简介内容'
+             }, {
+                 date: '2016-05-03',
+                 companyName: '中国工商银行',
+                 industryCategory: '会计/金融/银行/保险',
+                 companyNature: '国有企业',
+                 companyScale: '10001+',
+                 createTime: '2016-05-03',
+                 status: 'forbidden',
+                 creditLoan:false,
+                 virtualCreditCard:true,
+                 openFunction:'VIRTUAL_CREDIT_CARD',
+                 companyBriefIntroduction:'机构简介内容'
+             }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "msg": "查询成功",
+  "data": {
+    "isValid": true
+  }
+}

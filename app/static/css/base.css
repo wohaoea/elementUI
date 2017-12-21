@@ -1,0 +1,179 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+select{
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -o-appearance: none !important; 
+    -ms-appearance: none !important;
+    appearance: none !important;
+    
+}
+select::-ms-expand { display: none!important; }
+html,
+body {
+    font-family: sans-serif;
+    font-size: .3466666666666667rem;
+    color: #646464;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input {
+    outline: none !important;
+    -webkit-appearance: none !important; 
+    -moz-appearance: none !important; 
+    -o-appearance: none !important; 
+    -ms-appearance: none !important;
+    appearance: none !important;
+}
+
+textarea {
+    outline: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.blur {
+    text-decoration: none;
+    color: #4bafff;
+}
+
+
+/*
+menu style
+*/
+
+.menum {
+    width: 96%;
+    height: 1.0666666666666667rem;
+    margin: auto;
+    background-color: #fff;
+}
+
+.cbody {
+    width: 96%;
+    margin: auto;
+}
+
+.swipe {
+    position: relative;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.swipe-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.swipe-wrap>div {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.navbd {
+    background-color: #fff;
+}
+
+.nav {
+    /*position: relative;
+    width: 90%;
+    height: 1.0666666666666667rem;
+    margin: auto;
+    text-align: center;*/
+}
+
+.navleft {
+    float: left;
+    margin-top: .26666666666666666rem;
+}
+
+.navc {
+    font-size: .4266666666666667rem;
+    line-height: 1.0666666666666667rem;
+}
+
+.navr {
+    font-size: .3466666666666667rem;
+    line-height: 1.0666666666666667rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.yangguang {
+    width: 5.52rem;
+    height: .29333333333333333rem;
+    margin-top: .26666666666666666rem;
+}
+
+.clearboth {
+    clear: both;
+}
+
+ul,
+li {
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '\0020';
+}
+
+.clearfix {
+    zoom: 1;
+}

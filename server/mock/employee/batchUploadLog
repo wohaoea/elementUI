@@ -1,0 +1,46 @@
+{
+	"success" : true,
+	"msg" : "查询成功",
+	"data" : {
+	    "recordsTotal" : 30,
+	    "data" : [
+        	       {
+                       "batchNo" : "bt201701013256",
+                       "custName" : "命运",
+                       "totalCount" : 10000,
+                       "successCount" : 9999,
+                       "failCount" : 1,
+                       "createTime" : "2017-01-01"
+                   },{
+                        "batchNo" : "bt201701013256",
+                        "custName" : "命运",
+                        "totalCount" : 10000,
+                        "successCount" : 9999,
+                        "failCount" : 1,
+                        "createTime" : "2017-01-01"
+                   },{
+                        "batchNo" : "bt201701013256",
+                        "custName" : "命运",
+                        "totalCount" : 10000,
+                        "successCount" : 9999,
+                        "failCount" : 1,
+                        "createTime" : "2017-01-01"
+                   },{
+                        "batchNo" : "bt201701013256",
+                        "custName" : "命运",
+                        "totalCount" : 10000,
+                        "successCount" : 9999,
+                        "failCount" : 1,
+                        "createTime" : "2017-01-01"
+                   },{
+                        "batchNo" : "bt201701013256",
+                        "custName" : "命运",
+                        "totalCount" : 10000,
+                        "successCount" : 9999,
+                        "failCount" : 1,
+                        "createTime" : "2017-01-01"
+                   }
+        	]
+	}
+
+}

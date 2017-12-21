@@ -1,0 +1,21 @@
+{
+    "success":true,
+    "msg":"查询成功",
+    data:{
+        data:[
+             {
+                 "code": 1,
+                 "value": "正常"
+             },{
+                 "code": 2,
+                 "value": "离职"
+             },{
+                 "code": 3,
+                 "value": "试用"
+             },{
+                 "code": 4,
+                 "value": "申请离职"
+             }
+        ]
+    }
+}

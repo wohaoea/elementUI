@@ -1,0 +1,8 @@
+{
+    "success":true,
+    "msg":"登陆成功",
+    data:{
+        id:5621358,
+        loginStatusToken:'20171201172631bb48117cf7bd495484bc645000aaace9'
+    }
+}
